@@ -1,5 +1,5 @@
 import logo from '../assets/gd.jpg'
-import car from '../assets/photo_5920081830617399471_x.jpg'
+import car from '../assets/hi.jpg'
 const Hero = () => {
   return (
     <section className='w-full mx-auto flex flex-col items-center    md:w-[85%] md:flex-row md:gap-14 mt-16   ' >
@@ -11,7 +11,8 @@ const Hero = () => {
             </div>
             <p className='text-start font-medium text-stone-400 md px-6 md:text-lg ' >Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam nisi fuga voluptatibus nemo alias. Eveniet a provident eligendi quo numquam? Repudiandae explicabo fuga mollitia molestiae numquam tempora fugiat? Provident, doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non consequatur laudantium temporibus aliquid fuga, sint omnis nisi voluptatum. Quidem sequi incidunt, fugiat non ratione repellendus. Dolores blanditiis dolorum veniam eaque.</p>
         </div>
-        <div>
+        <div className='flex flex-col justify-center' >
+        <h2 className='text-xl  font-medium text-center text-slate-600 mb-3 ' >Meet Gama, He says hi</h2>
             <img src={car} className='w-40 md:w-full'  alt="" />
         </div>
     </section>
