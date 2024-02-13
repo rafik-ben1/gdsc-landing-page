@@ -9,11 +9,11 @@ const Header = () => {
          </span>
          <span className=" space-x-8" >
             <a className=" text-lg font-medium text-slate-700 hover:text-sky-600" href="#about">About Us</a>
-            <a className=" text-lg font-medium text-slate-700 hover:text-sky-600"  href="#">Team</a>
+            <a className=" text-lg font-medium text-slate-700 hover:text-sky-600"  href="#team">Team</a>
          </span>
      </div>
      <div className=" space-x-16 mr-6" >
-      <a className=" text-lg font-medium text-slate-700 hover:text-sky-600"  href="#">Events</a>
+      <a className=" text-lg font-medium text-slate-700 hover:text-sky-600"  href="#departements">Departements</a>
       <a className=" text-lg font-medium text-slate-700 hover:text-sky-600"  href="#">Videos</a>
       <a className=" text-lg font-medium text-slate-700 hover:text-sky-600"  href="#">Contact Us</a>
      </div>
