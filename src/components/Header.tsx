@@ -8,7 +8,7 @@ const Header = () => {
            <h3 className=" font-semibold text-lg text-slate-700 " >Gdsc-udbkm</h3>
          </span>
          <span className=" space-x-8" >
-            <a className=" text-lg font-medium text-slate-700 hover:text-sky-600"  href="#">About Us</a>
+            <a className=" text-lg font-medium text-slate-700 hover:text-sky-600" href="#about">About Us</a>
             <a className=" text-lg font-medium text-slate-700 hover:text-sky-600"  href="#">Team</a>
          </span>
      </div>
