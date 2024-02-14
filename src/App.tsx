@@ -1,5 +1,6 @@
 import About from "./components/About"
 import Departements from "./components/Departements"
+import Footer from "./components/Footer"
 import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Team from "./components/Team"
@@ -15,6 +16,7 @@ function App() {
       <Team />
       <Departements />
     </main>
+    <Footer />
     </>
   )
 }

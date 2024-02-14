@@ -29,7 +29,6 @@ const Header = () => {
           <rect y="11" width="24" height="2" />
           <rect y="18" width="24" height="2" />
       </svg>
-      
      </button>
      </div>
     
