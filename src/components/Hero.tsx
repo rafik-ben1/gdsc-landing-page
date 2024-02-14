@@ -3,7 +3,7 @@ import car from '../assets/hi.jpg'
 import useAnimate from '../hooks/useAnimate'
 const Hero = () => {
   const {ref,animate} = useAnimate()
-  const {refa = ref ,animatea = animate} = useAnimate()
+  const {ref :refa ,animate :animatea} = useAnimate()
 
   return (
     <section className='w-full mx-auto flex flex-col items-center gap-8 md:w-[90%] md:flex-row md:gap-24 md:items-center   ' >

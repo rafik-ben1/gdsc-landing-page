@@ -6,7 +6,7 @@ const Header = () => {
   
   return (
     <>
-    <header className="  z-[60] sticky w-full p-2 border-b-2 border-slate-100 mb-2 shadow-md flex flex-col mb-4 " >
+    <header className="  z-[60] sticky w-full p-2 border-b-2 border-slate-100  shadow-md flex flex-col mb-4 " >
      <div className="flex items-center justify-between" >
       <div className="flex items-center gap-14 " >
          <span className="flex items-center gap-2" >
