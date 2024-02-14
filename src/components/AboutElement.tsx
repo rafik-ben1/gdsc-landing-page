@@ -9,7 +9,7 @@ interface props {
 const AboutElement = ({title,children,color}:props) => {
 const {ref,animate} = useAnimate()
   return (
-    <div ref={ref} className={`transition-all duration-700 pt-12 bg-slate-50 pb-2  px-6 space-y-4 z-50 shadow-lg w-[250px] rounded-md border-t-8 hover:bg-slate-100 ${color} ${animate ? "opacity-100 " : "opacity-0" } `} >
+    <div ref={ref} className={`transition-all duration-1000 pt-12 bg-slate-50 pb-2  px-6 space-y-4 z-50 shadow-lg w-[250px] rounded-md border-t-8 hover:bg-slate-100 ${color} ${animate ? "opacity-100 " : "opacity-0" } `} >
             <h4 className="text-end text-slate-800 font-medium" >{title}</h4>
             <p className="text-slate-500 text-sm" >{children} </p>
         </div>
